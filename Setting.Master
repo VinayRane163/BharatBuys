@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Setting.master.cs" Inherits="BharatBuys.Setting1" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+</asp:ContentPlaceHolder>
+    <style>
+        #nav-area{
+            width: 100%; /* Ensure the container takes the full width */
+            overflow:scroll;            
+        }
+        #nav-area::-webkit-scrollbar {
+            display: none; /* Hide scrollbar */
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header id="header_1">
+            <div class="text-center bg-danger"  style="font-size:3rem ;">BharatBuys </div>
+
+              <div class="d-flex flex-row mb-3 justify-content-center bg-warning" id="nav-area">
+                <div class="p-2 me-3 " style="font-size:1.5rem ;"><a class="text-decoration-none text-black border border-black rounded p-1" href="Default.aspx">Home</a></div>
+          <!--      <div class="p-2 me-3 "style="font-size:1.5rem ;"><a class="text-decoration-none text-black border border-black rounded p-1" href="#Popular">Register as Seller</a></div>    -->
+                <div class="p-2 me-3  " style="font-size:1.5rem;"><a class="text-decoration-none text-black border border-black rounded p-1" href="Sell.aspx">Add Product</a></div>              
+                <div class="p-2 me-3  " style="font-size:1.5rem;"><a class="text-decoration-none text-black border border-black rounded p-1" href="Your_Products.aspx">Your Products</a></div>             
+                <div class="p-2 me-3  " style="font-size:1.5rem;"><a class="text-decoration-none text-black border border-black rounded p-1" href="Your_Product_Orders.aspx">Your Product Orders</a></div>             
+                <div class="p-2 me-3  " style="font-size:1.5rem;"><a class="text-decoration-none text-black border border-black rounded p-1" href="Order.aspx">Your Order History</a></div>             
+                <div class="p-2 me-3  " style="font-size:1.5rem;"><a class="text-decoration-none text-black border border-black rounded p-1" href="Setting.aspx">Setting</a></div>              
+
+            </div>
+
+           
+        </header>
+        <div>
+            <div class="p-3">
+                           <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+               
+        </div>
+                
+           </div>
+       </form>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,275 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|c:\\users\\vinay\\source\\repos\\bharatbuys\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|c:\\users\\vinay\\source\\repos\\bharatbuys\\your_product_orders.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|solutionrelative:your_product_orders.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|c:\\users\\vinay\\source\\repos\\bharatbuys\\your_product_orders.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|solutionrelative:your_product_orders.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|c:\\users\\vinay\\source\\repos\\bharatbuys\\buy.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|solutionrelative:buy.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|c:\\users\\vinay\\source\\repos\\bharatbuys\\setting.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|solutionrelative:setting.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|c:\\users\\vinay\\source\\repos\\bharatbuys\\setting.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|solutionrelative:setting.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|c:\\users\\vinay\\source\\repos\\bharatbuys\\setting.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|solutionrelative:setting.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|C:\\Users\\vinay\\source\\repos\\BharatBuys\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|solutionrelative:default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|c:\\users\\vinay\\source\\repos\\bharatbuys\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|c:\\users\\vinay\\source\\repos\\bharatbuys\\sell.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|solutionrelative:sell.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|c:\\users\\vinay\\source\\repos\\bharatbuys\\sell.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|solutionrelative:sell.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|c:\\users\\vinay\\source\\repos\\bharatbuys\\edit_prod.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|solutionrelative:edit_prod.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|c:\\users\\vinay\\source\\repos\\bharatbuys\\delete_product.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|solutionrelative:delete_product.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|c:\\users\\vinay\\source\\repos\\bharatbuys\\your_products.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|solutionrelative:your_products.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|c:\\users\\vinay\\source\\repos\\bharatbuys\\your_products.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3A0A5E5A-8621-4F9D-A937-B6A21A98CB8F}|BharatBuys.csproj|solutionrelative:your_products.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-22T09:37:06.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Buy.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Buy.aspx.cs",
+              "RelativeDocumentMoniker": "Buy.aspx.cs",
+              "ToolTip": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Buy.aspx.cs",
+              "RelativeToolTip": "Buy.aspx.cs",
+              "ViewState": "AQIAALMAAAAAAAAAAAAAwLwAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T09:21:28.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Setting.Master",
+              "DocumentMoniker": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Setting.Master",
+              "RelativeDocumentMoniker": "Setting.Master",
+              "ToolTip": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Setting.Master",
+              "RelativeToolTip": "Setting.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-22T09:16:30.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Setting.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Setting.aspx.cs",
+              "RelativeDocumentMoniker": "Setting.aspx.cs",
+              "ToolTip": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Setting.aspx.cs",
+              "RelativeToolTip": "Setting.aspx.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAADgv10AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T09:16:07.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Setting.aspx",
+              "DocumentMoniker": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Setting.aspx",
+              "RelativeDocumentMoniker": "Setting.aspx",
+              "ToolTip": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Setting.aspx",
+              "RelativeToolTip": "Setting.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-22T09:15:56.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Default.aspx",
+              "RelativeDocumentMoniker": "Default.aspx",
+              "ToolTip": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Default.aspx",
+              "RelativeToolTip": "Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-22T09:07:49.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Sell.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Sell.aspx.cs",
+              "RelativeDocumentMoniker": "Sell.aspx.cs",
+              "ToolTip": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Sell.aspx.cs",
+              "RelativeToolTip": "Sell.aspx.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T09:07:33.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Sell.aspx",
+              "DocumentMoniker": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Sell.aspx",
+              "RelativeDocumentMoniker": "Sell.aspx",
+              "ToolTip": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Sell.aspx",
+              "RelativeToolTip": "Sell.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-22T09:07:28.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete_Product.aspx",
+              "DocumentMoniker": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Delete_Product.aspx",
+              "RelativeDocumentMoniker": "Delete_Product.aspx",
+              "ToolTip": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Delete_Product.aspx",
+              "RelativeToolTip": "Delete_Product.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-22T08:59:27.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit_Prod.aspx",
+              "DocumentMoniker": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Edit_Prod.aspx",
+              "RelativeDocumentMoniker": "Edit_Prod.aspx",
+              "ToolTip": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Edit_Prod.aspx",
+              "RelativeToolTip": "Edit_Prod.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-22T08:59:22.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Your_Product_Orders.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Your_Product_Orders.aspx.cs",
+              "RelativeDocumentMoniker": "Your_Product_Orders.aspx.cs",
+              "ToolTip": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Your_Product_Orders.aspx.cs",
+              "RelativeToolTip": "Your_Product_Orders.aspx.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCEAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T08:58:55.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Your_Product_Orders.aspx",
+              "DocumentMoniker": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Your_Product_Orders.aspx",
+              "RelativeDocumentMoniker": "Your_Product_Orders.aspx",
+              "ToolTip": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Your_Product_Orders.aspx",
+              "RelativeToolTip": "Your_Product_Orders.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-22T08:57:47.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Your_Products.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Your_Products.aspx.cs",
+              "RelativeDocumentMoniker": "Your_Products.aspx.cs",
+              "ToolTip": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Your_Products.aspx.cs",
+              "RelativeToolTip": "Your_Products.aspx.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAADIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T08:58:44.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Your_Products.aspx",
+              "DocumentMoniker": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Your_Products.aspx",
+              "RelativeDocumentMoniker": "Your_Products.aspx",
+              "ToolTip": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Your_Products.aspx",
+              "RelativeToolTip": "Your_Products.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-22T08:58:31.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "Default.aspx.cs",
+              "ToolTip": "C:\\Users\\vinay\\source\\repos\\BharatBuys\\Default.aspx.cs",
+              "RelativeToolTip": "Default.aspx.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T19:37:44.001Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
