@@ -12,25 +12,28 @@ namespace BharatBuys
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Request.QueryString["ProductID"] != null)
+            if (!IsPostBack)
             {
-                // Get the ProductID from the query string
-                string ProductID = Request.QueryString["ProductID"].ToString(); ;
+                if (Request.QueryString["ProductID"] != null)
+                {
+                    // Get the ProductID from the query string
+                    string ProductID = Request.QueryString["ProductID"].ToString(); ;
 
 
-                SqlConnection con = new SqlConnection("Server=sql.bsite.net\\MSSQL2016;Database=bharatbuys_db;User Id=bharatbuys_db;Password=Ganesh@123.;");
-                con.Open();
-                SqlCommand cmd = new SqlCommand("select * from Product where ProductID=@ProductID", con);
-                cmd.Parameters.AddWithValue("@ProductID", ProductID);
-                cmd.ExecuteNonQuery();
-                SqlDataReader rdr = cmd.ExecuteReader();
-                Repeater1.DataSource = rdr;
-                Repeater1.DataBind();
-            }
-            else
-            {
-                string errorScript = "alert('Error Occured Plese go gack to home');";
-                ScriptManager.RegisterStartupScript(this, this.GetType(), "CoverImageErrorScript", errorScript, true);
+                    SqlConnection con = new SqlConnection("Server=sql.bsite.net\\MSSQL2016;Database=bharatbuys_db;User Id=bharatbuys_db;Password=Ganesh@123.;");
+                    con.Open();
+                    SqlCommand cmd = new SqlCommand("select * from Product where ProductID=@ProductID", con);
+                    cmd.Parameters.AddWithValue("@ProductID", ProductID);
+                    cmd.ExecuteNonQuery();
+                    SqlDataReader rdr = cmd.ExecuteReader();
+                    Repeater1.DataSource = rdr;
+                    Repeater1.DataBind();
+                }
+                else
+                {
+                    string errorScript = "alert('Error Occured Plese go gack to home');";
+                    ScriptManager.RegisterStartupScript(this, this.GetType(), "CoverImageErrorScript", errorScript, true);
+                }
             }
         }
 
@@ -43,7 +46,7 @@ namespace BharatBuys
 
             SqlConnection con = new SqlConnection("Server=sql.bsite.net\\MSSQL2016;Database=bharatbuys_db;User Id=bharatbuys_db;Password=Ganesh@123.;");
             con.Open();
-            SqlCommand cmd = new SqlCommand("Delete * from Product where ProductID=@ProductID", con);
+            SqlCommand cmd = new SqlCommand("Delete from Product where ProductID=@ProductID", con);
             cmd.Parameters.AddWithValue("@ProductID", ProductID);
             cmd.ExecuteNonQuery();
 

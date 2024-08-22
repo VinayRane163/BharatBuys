@@ -1,0 +1,98 @@
+/*CREATE TABLE Products (
+    ProductID INT PRIMARY KEY  identity(1,1),
+    UserID INT,  -- Foreign key to Users table
+    ProductName NVARCHAR(100) NOT NULL,
+    ProductPrice NVARCHAR(100) NOT NULL,
+    ProductDescription NVARCHAR(MAX),
+    FOREIGN KEY (UserID) REFERENCES UserInfo(User_Id)
+);*/
+
+Create table UserInfo(
+User_Id int Primary key identity(1,1),
+User_Name varchar(255),
+User_Password varchar(255), 
+User_Mobile varchar(255)
+);
+
+/*CREATE TABLE Products (
+    ProductID INT PRIMARY KEY,
+    UserID INT,
+    ProductName NVARCHAR(100),
+    ProductPrice NVARCHAR(100),
+    ProductDescription NVARCHAR(MAX)
+);
+
+CREATE TABLE ProdImage (
+    ProdImage_Id INT IDENTITY(1,1) PRIMARY KEY, -- Auto-incrementing primary key
+    Cover_Image VARBINARY(MAX) NOT NULL,
+    Image1 VARBINARY(MAX) NOT NULL,
+    Image2 VARBINARY(MAX) NOT NULL,
+    Image3 VARBINARY(MAX) NOT NULL,
+    Image4 VARBINARY(MAX) NOT NULL,
+    Image5 VARBINARY(MAX) NOT NULL
+);*/
+
+/*CREATE TABLE Product (
+    ProductID INT identity(1,1) PRIMARY KEY,
+    UserID NVARCHAR(100) not null,
+    ProductName NVARCHAR(100) not null,
+    ProductPrice NVARCHAR(100) not null,
+    ProductDescription NVARCHAR(MAX) not null,
+    Cover_Image VARBINARY(MAX) NOT NULL,
+    Image1 VARBINARY(MAX) ,
+    Image2 VARBINARY(MAX) ,
+    Image3 VARBINARY(MAX) ,
+    Image4 VARBINARY(MAX) ,
+    Image5 VARBINARY(MAX)
+);*/
+
+CREATE TABLE Product (
+    ProductID INT IDENTITY(1,1) PRIMARY KEY,
+    UserID NVARCHAR(100) NOT NULL,
+    ProductName NVARCHAR(100) NOT NULL,
+    ProductPrice NVARCHAR(100) NOT NULL,
+    ProductDescription NVARCHAR(MAX) NOT NULL,
+  Keywords NVARCHAR(255) NULL,
+    Quantity INT NOT NULL DEFAULT 0,
+    Cover_Image VARBINARY(MAX) NOT NULL,
+    Image1 VARBINARY(MAX),
+    Image2 VARBINARY(MAX),
+    Image3 VARBINARY(MAX),
+    Image4 VARBINARY(MAX),
+    Image5 VARBINARY(MAX)
+  
+);
+
+  create table Seller(
+  seller_id int identity(1,1),
+  FullName varchar(max) not null,
+  Email_Id varchar(max) not null,
+  User_Mobile varchar(max) not null,
+  Pan varchar(max) not null,
+  AdharCARD varchar(max) not null,
+  Address varchar(max) not null
+  )
+
+CREATE TABLE user_search_history (
+    user_id varchar (255) not null,
+    search varchar (255) not null
+);
+
+
+CREATE TABLE OrderBB (
+		OrderID INT identity(1,1) PRIMARY KEY,  
+		ProductID varchar(255) not null,
+		ProductName VARCHAR(255) not null,
+		ProductPrice VARCHAR(255) not null,
+		Quantity VARCHAR(255) not null,
+		Total_Price Varchar(255) not null,
+		BuyerID Varchar(255) not null,
+		BuyerName VARCHAR(255) not null,
+		BuyerPhone VARCHAR(255) not null,
+		BuyerAddress VARCHAR(255) not null,
+		OrderType VARCHAR(255) not null,
+		Date VARCHAR(255) not null 
+	);
+create table usercart(
+username varchar(255) not null, product_id varchar(255) not null
+)

@@ -12,32 +12,43 @@ namespace BharatBuys
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Request.QueryString["ProductID"] != null)
+            try
             {
-                // Get the ProductID from the query string
-                string ProductID = Request.QueryString["ProductID"].ToString(); ;
-
-
-                SqlConnection con = new SqlConnection("Server=sql.bsite.net\\MSSQL2016;Database=bharatbuys_db;User Id=bharatbuys_db;Password=Ganesh@123.;");
-                con.Open();
-                SqlCommand cmd = new SqlCommand("select * from Product where ProductID=@ProductID", con);
-                cmd.Parameters.AddWithValue("@ProductID", ProductID);
-                cmd.ExecuteNonQuery();
-                SqlDataReader rdr = cmd.ExecuteReader();
-                if(rdr.Read())
+                if (!IsPostBack)
                 {
-                    Quantity.Text = rdr["Quantity"].ToString();
-                    Keywords.Text = rdr["Keywords"].ToString();
-                    ProductDescription.Text = rdr["ProductDescription"].ToString();
-                    ProductPrice.Text = rdr["ProductPrice"].ToString();
-                    ProductName.Text = rdr["ProductName"].ToString();
+                    if (Request.QueryString["ProductID"] != null)
+                    {
+                        // Get the ProductID from the query string
+                        string ProductID = Request.QueryString["ProductID"].ToString(); ;
+
+
+                        SqlConnection con = new SqlConnection("Server=sql.bsite.net\\MSSQL2016;Database=bharatbuys_db;User Id=bharatbuys_db;Password=Ganesh@123.;");
+                        con.Open();
+                        SqlCommand cmd = new SqlCommand("select * from Product where ProductID=@ProductID", con);
+                        cmd.Parameters.AddWithValue("@ProductID", ProductID);
+                        cmd.ExecuteNonQuery();
+                        SqlDataReader rdr = cmd.ExecuteReader();
+                        if (rdr.Read())
+                        {
+                            Quantity.Text = rdr["Quantity"].ToString();
+                            Keywords.Text = rdr["Keywords"].ToString();
+                            ProductDescription.Text = rdr["ProductDescription"].ToString();
+                            ProductPrice.Text = rdr["ProductPrice"].ToString();
+                            ProductName.Text = rdr["ProductName"].ToString();
+                        }
+                    }
+                    else
+                    {
+                        string errorScript = "alert('Error Occured Plese go gack to home');";
+                        ScriptManager.RegisterStartupScript(this, this.GetType(), "CoverImageErrorScript", errorScript, true);
+                    }
                 }
             }
-            else
-            {
-                string errorScript = "alert('Error Occured Plese go gack to home');";
+            catch {
+                string errorScript = "alert('error');";
                 ScriptManager.RegisterStartupScript(this, this.GetType(), "CoverImageErrorScript", errorScript, true);
-            }
+                return;
+            }   
         }
 
         protected void UpdateProducts_Click(object sender, EventArgs e)
