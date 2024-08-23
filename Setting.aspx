@@ -6,7 +6,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <div class="p-3">
-            
+        <asp:Button CssClass="form-control m-3 fs-5 bg-danger border border-black" ID="YO" runat="server" Text="YOUR ACCOUNT" OnClick="YOURACCOUNT_Click" />
+
         <asp:Button CssClass="form-control m-3 fs-5 bg-danger border border-black" ID="Button1" runat="server" Text="Register as Seller" OnClick="RAS_Click" />
         <asp:Button CssClass="form-control m-3 fs-5 bg-danger border border-black" ID="AddProd" runat="server" Text="Add Product" OnClick="Add_Click" />
         <asp:Button CssClass="form-control m-3 fs-5 bg-danger border border-black" ID="Your_Products" runat="server" Text="Your Products" OnClick="Your_Products_Click" />

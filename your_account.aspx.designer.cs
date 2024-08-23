@@ -11,70 +11,70 @@ namespace BharatBuys
 {
 
 
-    public partial class Setting
+    public partial class your_account
     {
 
         /// <summary>
-        /// YO control.
+        /// Username control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button YO;
+        protected global::System.Web.UI.WebControls.Label Username;
 
         /// <summary>
-        /// Button1 control.
+        /// label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Label label1;
 
         /// <summary>
-        /// AddProd control.
+        /// changePass control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button AddProd;
+        protected global::System.Web.UI.WebControls.TextBox changePass;
 
         /// <summary>
-        /// Your_Products control.
+        /// repass control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Your_Products;
+        protected global::System.Web.UI.WebControls.TextBox repass;
 
         /// <summary>
-        /// Your_Product_Order control.
+        /// CompareValidator1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Your_Product_Order;
+        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator1;
 
         /// <summary>
-        /// Order_History control.
+        /// changebtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Order_History;
+        protected global::System.Web.UI.WebControls.Button changebtn;
 
         /// <summary>
-        /// Logout control.
+        /// Back control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Logout;
+        protected global::System.Web.UI.WebControls.Button Back;
     }
 }

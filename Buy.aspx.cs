@@ -282,15 +282,17 @@ namespace BharatBuys
     string OrderType,
     string Date)
         {
-            // Gmail SMTP configuration
-            string smtpHost = "smtp.gmail.com";
-            int smtpPort = 587;
-            string smtpUsername = "exploremumbai69@gmail.com";
-            string smtpPassword = "svrc qelk zbvx nxle";
+            try
+            {
+                // Gmail SMTP configuration
+                string smtpHost = "smtp.gmail.com";
+                int smtpPort = 587;
+                string smtpUsername = "exploremumbai69@gmail.com";
+                string smtpPassword = "svrc qelk zbvx nxle";
 
-            // Email content
-            string subject = "Order Receipt - BharatBuys";
-            string body = $@"
+                // Email content
+                string subject = "Order Receipt - BharatBuys";
+                string body = $@"
                     <html>
                         <body style='font-family: Arial, sans-serif;'>
                             <p>Dear {BuyerName},</p>
@@ -348,23 +350,29 @@ namespace BharatBuys
                     </html>
                     ";
 
-            using (SmtpClient smtpClient = new SmtpClient(smtpHost, smtpPort))
-            {
-                smtpClient.EnableSsl = true;
-                smtpClient.UseDefaultCredentials = false;
-                smtpClient.Credentials = new NetworkCredential(smtpUsername, smtpPassword);
-
-                using (MailMessage mailMessage = new MailMessage())
+                using (SmtpClient smtpClient = new SmtpClient(smtpHost, smtpPort))
                 {
-                    mailMessage.From = new MailAddress(smtpUsername);
-                    mailMessage.To.Add(email);
-                    mailMessage.Subject = subject;
-                    mailMessage.Body = body;
-                    mailMessage.IsBodyHtml = true;
+                    smtpClient.EnableSsl = true;
+                    smtpClient.UseDefaultCredentials = false;
+                    smtpClient.Credentials = new NetworkCredential(smtpUsername, smtpPassword);
 
-                    smtpClient.Send(mailMessage);
+                    using (MailMessage mailMessage = new MailMessage())
+                    {
+                        mailMessage.From = new MailAddress(smtpUsername);
+                        mailMessage.To.Add(email);
+                        mailMessage.Subject = subject;
+                        mailMessage.Body = body;
+                        mailMessage.IsBodyHtml = true;
+
+                        smtpClient.Send(mailMessage);
+                    }
                 }
             }
+            catch {
+                string errorScript = "alert('email sending error ');";
+                ScriptManager.RegisterStartupScript(this, this.GetType(), "CoverImageErrorScript", errorScript, true);
+            }
+            
         }
 
     }

@@ -94,5 +94,10 @@ namespace BharatBuys
             Response.Redirect("Your_Product_Orders.aspx");
 
         }
+
+        protected void YOURACCOUNT_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("your_account.aspx");
+        }
     }
 }

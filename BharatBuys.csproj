@@ -72,6 +72,7 @@
     <Content Include="Default.aspx" />
     <Content Include="Delete_Product.aspx" />
     <Content Include="Edit_Prod.aspx" />
+    <Content Include="Forgetpassword.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Order.aspx" />
     <Content Include="Prod_info.aspx" />
@@ -82,6 +83,7 @@
     <Content Include="Signup.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="your_account.aspx" />
     <Content Include="Your_Products.aspx" />
     <Content Include="Your_Product_Orders.aspx" />
   </ItemGroup>
@@ -120,6 +122,13 @@
     </Compile>
     <Compile Include="Edit_Prod.aspx.designer.cs">
       <DependentUpon>Edit_Prod.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forgetpassword.aspx.cs">
+      <DependentUpon>Forgetpassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forgetpassword.aspx.designer.cs">
+      <DependentUpon>Forgetpassword.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -198,6 +207,13 @@
     </Compile>
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="your_account.aspx.cs">
+      <DependentUpon>your_account.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="your_account.aspx.designer.cs">
+      <DependentUpon>your_account.aspx</DependentUpon>
     </Compile>
     <Compile Include="Your_Products.aspx.cs">
       <DependentUpon>Your_Products.aspx</DependentUpon>
